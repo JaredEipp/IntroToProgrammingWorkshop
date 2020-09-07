@@ -25,7 +25,7 @@ Remember COM3:
     * If it is impossible to communicate the meaning of your code without a comment, do it.
 * Avoid misinformation
     * If you update a line of code, make sure you re-read its corresponding comment (if it has one). If you make a change to a line of code without changing its comment, it will be *very* difficult to track down a bug introduced by your modification.
-    * Don’t “pun” variable names. Sum_array, for instance, is a terrible variable name. Does it mean an array of sums? An array of summaries? What kind of sums/summaries is it holding? No one knows. If the array is holding the summaries of some temperatures, we’ll name it temperature_summaries. Another pitfall here would be naming the new array temp_summaries — does temp mean temporary or temperature? 
+    * Don’t “pun” variable names. Sum_array, for instance, is a terrible variable name. Does it mean an array of sums? An array of summaries? What kind of sums/summaries is it holding? No one knows. If the array is holding the summaries of some temperatures, name it temperature_summaries. Another pitfall here would be naming the new array temp_summaries — does temp mean temporary or temperature? 
     * Don’t make assumptions about how something works. Do not write a comment to clarify a weird library function call unless you are certain you understand what’s happening.
 
 ### Comprehensive
